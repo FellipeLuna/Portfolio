@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Natanael Pereira</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="assets/img/minha_foto.jpg" alt="Foto de Perfil" class="photo" id="profile.photo">
+
+            <h1 class="title">
+                Olá, <br>Me chamo <span id="profile.name">Fellipe Laranjeira</span>
+            </h1>
+
+            <div class="information">
+                <p class="job" id="profile.job">Programador Junior</p>
+                <p class="location" id="profile.location">Independencia</p>
+                <p class="phone">
+                    <a href="https://wa.me/84991038566" id="profile.phone">(84) 9 9103-8566</a>
+                </p>
+                <p class="email">
+                    <a href="https://www.fellipemluna@gmail.com" id="profile.email">fellipemluna@gmail.com</a>
+                </p>
+            </div>
+        </header>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
+                            <li><img src="data/imgs/react.png" alt=""></li>
+                            <li><img src="data/imgs/js.png" alt=""></li>
+                            <li><img src="data/imgs/html.png" alt=""></li>
+                            <li><img src="data/imgs/css.png" alt=""></li>
+                            <li><img src="data/imgs/git.png" alt=""></li>
+                            <li><img src="data/imgs/mysql.png" alt=""></li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Python</li>
+                            <li>Javascript</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Português</li>
+                    <li>Espanhol </li>
+                    <li>Ingles </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+                    <li>
+                        <p class="github">
+                            <a href="https://github.com/FellipeLuna" id="profile.portfolio">Repositorio Github</a>
+                    
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>experiencia profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience" id="profile.professionalExperience">
+                    <li>Desenvolvedor Autônomo | Freelancer
+                        Janeiro 2024 – Presente<br>
+                        •Desenvolvimento de aplicativos web e móveis.<br>
+                        •Implementação de soluções personalizadas de acordo com as necessidades dos clientes.<br>
+                        ------------------------------------------------<br>
+                        Experiência Internacional<br><br>
+                        Técnico de Suporte Técnico | Randstad | Braga, Portugal<br>
+                        ------------------------------------------------<br>
+                        Agosto 2022 - Agosto 2023<br>
+                        •Prestação de suporte técnico em inglês para clientes da Apple, com foco em plataformas iOS, iPadOS e macOS.<br>
+                        •Resolução de diversos problemas técnicos, superando metas diárias de atendimento.<br>
+                        •Intermediação com clientes do Reino Unido e EMEA, demonstrando sensibilidade cultural e comunicação eficaz.<br>
+                        Coordenador de Projetos | Kafa Building | Greensboro, NC, EUA<br>
+                        ------------------------------------------------<br>
+                        Dezembro 2021 - Junho 2022<br>
+                        • Gerenciamento de orçamento, aquisição e entrega de materiais de construção.<br>
+                        • Supervisão de projetos de construção, garantindo aderência a prazos e padrões de qualidade.<br>
+                        </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="assets/js/acordeon.js"></script>
+    
+</body>
+
+</html>
